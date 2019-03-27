@@ -8,7 +8,7 @@
       "matches": [ "http://*/*", "https://*/*" ],
       "run_at": "document_start"
    } ],
-   "description": "Autosaves everything you type so you can easily recover from form-killing timeouts, crashes and network errors.",
+   "description": "Recover lost form input.",
    "icons": {
       "128": "Icon-128.png",
       "16": "Icon-16.png",
@@ -16,13 +16,13 @@
       "48": "Icon-48.png"
    },
    "manifest_version": 2,
-   "name": "Lazarus: Form Recovery Patched",
+   "name": "Form Recovery",
    "options_page": "options.html",
    "page_action": {
       "default_icon": "images/lazarus.png",
-      "default_title": "Lazarus: Form Recovery"
+      "default_title": "Form Recovery"
    },
-   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+   "permissions": ["activeTab"],
    "update_url": "http://clients2.google.com/service/update2/crx",
    "version": "3.0.7",
    "web_accessible_resources": [ "*" ]
